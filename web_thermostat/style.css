@@ -62,4 +62,14 @@ body {
 	right: 100px;
 }
 
+img {
+	height: 100px;
+	position: relative;
+}
 
+.downButton {
+	float:left;
+}
+.upButton {
+	float:right;
+}
