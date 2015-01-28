@@ -5,16 +5,21 @@ body {
 
 .thermostat {
 	background-color: gray;
+	position: relative;
+	text-align: center;
 }
 
 .info {
 	background-color: #44c15a;
+	position: absolute;
 }
 
 .heatingSetpoint {
 	background-color: #ff0000;
+	position: absolute;
 }
 
 .coolingSetpoint {
 	background-color: #00ddff;
+	position: absolute;
 }
