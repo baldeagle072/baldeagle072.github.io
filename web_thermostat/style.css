@@ -1,12 +1,13 @@
 body {
 	background-color: black;
 	color: white;
+	text-align: center;
 }
 
 .thermostat {
 	background-color: gray;
 	position: relative;
-	text-align: center;
+	
 }
 
 .info {
