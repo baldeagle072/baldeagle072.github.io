@@ -6,3 +6,15 @@ body {
 .thermostat {
 	background-color: gray;
 }
+
+.info {
+	background-color: #44c15a;
+}
+
+.heatingSetpoint {
+	background-color: #ff0000;
+}
+
+.coolingSetpoint {
+	background-color: #00ddff;
+}
