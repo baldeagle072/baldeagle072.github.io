@@ -2,12 +2,13 @@ body {
 	background-color: black;
 	color: white;
 	text-align: center;
+	width: 500px;
 }
 
 .thermostat {
 	background-color: gray;
 	position: relative;
-	
+	height: 550px;
 }
 
 .info {
@@ -15,12 +16,50 @@ body {
 	position: absolute;
 }
 
+.temperature {
+	width: 120px;
+	height: 100px;
+	left: 100px;
+}
+
+.thermostatOperatingState {
+	width: 120px;
+	height: 100px;
+	right: 100px;
+}
+
 .heatingSetpoint {
 	background-color: #ff0000;
 	position: absolute;
+	width: auto;
+	height: 100px;
+	top: 175px;
+	left: 25px;
+	right: 25px;
 }
 
 .coolingSetpoint {
 	background-color: #00ddff;
 	position: absolute;
+	width: auto;
+	height: 100px;
+	top: 300px;
+	left: 25px;
+	right: 25px;
 }
+
+.thermostatMode {
+	width: 120px;
+	height: 100px;
+	top: 425px;
+	left: 100px;
+}
+
+.thermostatFanMode {
+	width: 120px;
+	height: 100px;
+	top: 425px;
+	right: 100px;
+}
+
+
