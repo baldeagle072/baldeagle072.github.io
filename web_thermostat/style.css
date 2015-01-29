@@ -8,10 +8,12 @@
 
 .tstat-data {
 	border: black solid;
+	background-color: #04d248;
 }
 
 .tstat-heating {
 	border: black solid;
+	background-color: #ff495e;
 }
 
 .tstat-data, .tstat-heating, .tstat-cooling {
@@ -20,9 +22,16 @@
 
 .tstat-cooling {
 	border: black solid;
+	background-color: #0cf6f6;
 }
 
 .tstat {
-	padding: 25px;
+	padding: 20px;
 	border: black solid;
+	background-color: #c4dae3;
+}
+
+.btn {
+	padding: 0;
+	margin-top: 3px;
 }
