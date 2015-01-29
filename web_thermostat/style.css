@@ -2,13 +2,13 @@ body {
 	background-color: black;
 	color: white;
 	text-align: center;
-	width: 500px;
 }
 
 .thermostat {
 	background-color: gray;
 	position: relative;
 	height: 550px;
+	width: 400px;
 }
 
 .info {
@@ -19,13 +19,13 @@ body {
 .temperature {
 	width: 120px;
 	height: 100px;
-	left: 100px;
+	left: 50px;
 }
 
 .thermostatOperatingState {
 	width: 120px;
 	height: 100px;
-	right: 100px;
+	right: 50px;
 }
 
 .heatingSetpoint {
@@ -52,24 +52,30 @@ body {
 	width: 120px;
 	height: 100px;
 	top: 425px;
-	left: 100px;
+	left: 50px;
 }
 
 .thermostatFanMode {
 	width: 120px;
 	height: 100px;
 	top: 425px;
-	right: 100px;
+	right: 50px;
 }
 
 img {
 	height: 100px;
 	position: relative;
+	margin: 0 20px;
 }
 
-.downButton {
-	float:left;
+.dataNum {
+	margin: 0;
+	padding: 0;
+	position: relative;
 }
-.upButton {
-	float:right;
+
+.setTemp {
+	position: relative;
+	font-size: 40px;
+	top: -1em
 }
