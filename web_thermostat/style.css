@@ -2,6 +2,19 @@
 	text-align: center;
 }
 
-.arrow {
-	width:100px
+.tstat-label {
+
+}
+
+.tstat-data {
+	border: black solid;
+}
+
+.tstat-heating {
+	border: black solid;
+	margin-bottom: 1em;
+}
+
+.tstat-cooling {
+	border: black solid;
 }
