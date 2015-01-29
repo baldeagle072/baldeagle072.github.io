@@ -1,4 +1,4 @@
-$('button').on('click', function() {
+$('button').on('submit', function() {
 	alert("test");
 	var url = getCommandUrl();
 	$.get(url, {command: "heatUp"});
@@ -17,7 +17,7 @@ $('.tstat-cooling .up-btn').click(function() {
 });
 
 function getCommandUrl(){
-	var url = $(location).attr('href');
+	var url = "command/?" + window.location.href.slice(window.location.href.indexOf('?') + 1)
 	alert(url);
 	return url;
 }
