@@ -1,4 +1,4 @@
-$('.tstat-heating div a.down-btn').click(function() {
+$('.btn').click(function() {
 	alert("test");
 	var url = getCommandUrl();
 	$.get(url, {command: "heatUp"});
