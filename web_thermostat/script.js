@@ -2,7 +2,7 @@ function onClick() {
 	alert("test");
 	var url = getCommandUrl();
 	$.get(url, {command: "heatUp"});
-});
+};
 
 $('.tstat-heating .up-btn').click(function() {
 	
