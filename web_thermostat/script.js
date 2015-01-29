@@ -1,7 +1,6 @@
-function onClick() {
-	alert("test");
+function sendCommand(command) {
 	var url = getCommandUrl();
-	$.get(url, {command: "heatUp"});
+	$.get(url, {command: command});
 };
 
 $('.tstat-heating .up-btn').click(function() {
