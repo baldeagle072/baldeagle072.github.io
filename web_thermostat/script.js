@@ -1,4 +1,4 @@
-$('button').on('click', function(e) {
+function onClick() {
 	alert("test");
 	var url = getCommandUrl();
 	$.get(url, {command: "heatUp"});
@@ -15,10 +15,6 @@ $('.tstat-cooling .down-btn').click(function() {
 $('.tstat-cooling .up-btn').click(function() {
 	
 });
-
-function onClick() {
-	alert("test2");
-};
 
 function getCommandUrl(){
 	var url = "command/?" + window.location.href.slice(window.location.href.indexOf('?') + 1)
