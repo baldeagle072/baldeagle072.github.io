@@ -1,4 +1,4 @@
-$('button').on('submit', function() {
+$('a').on('click', function(e) {
 	alert("test");
 	var url = getCommandUrl();
 	$.get(url, {command: "heatUp"});
