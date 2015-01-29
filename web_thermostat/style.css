@@ -12,9 +12,16 @@
 
 .tstat-heating {
 	border: black solid;
+}
+
+.tstat-data, .tstat-heating, .tstat-cooling {
 	margin-bottom: 1em;
 }
 
 .tstat-cooling {
+	border: black solid;
+}
+
+.tstat {
 	border: black solid;
 }
